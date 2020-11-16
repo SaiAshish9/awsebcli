@@ -1,0 +1,7 @@
+eb init -p python=3 venv
+eb init
+codecommit n
+ssh y
+eb create sb-api
+git add .
+eb deploy --staged
